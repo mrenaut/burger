@@ -7,8 +7,7 @@ User is able to create database entries from their own input and alter the data,
 
 This app is a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM using the MVC design pattern.
 
-Node and MySQL to query and route data in the application, and Handlebars is used to generate the HTML.
----
+
 
 
 When a user submits a burger's name, after saving the user's entry into a Sequel database, the application dynamically generates the burger on the left side of the page with a "Devour" button using a Handlebars template. When the user clicks clicks devour, that aspect of the database entry is updated and then displayed in a different section.
